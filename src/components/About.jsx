@@ -1,4 +1,3 @@
-import Profile from '../assets/profile.png'
 import FBProf from '../assets/fb-profile.png'
 
 const About = () => {

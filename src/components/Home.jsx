@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import Hover from "../assets/hover-image.png"
-
 const Home = () => {
     const [showFloatingDiv, setShowFloatingDiv] = useState(false);
 
@@ -24,7 +22,7 @@ const Home = () => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}>
                         code
-                        <span className="md:top-[40px] md:left-[15px] absolute top-[25px] left-0 text-sm text-[#817F75]">Hover &#8593;</span>
+                        <span className="md:top-[40px] md:left-[15px] absolute top-[25px] left-0 text-sm text-[#817F75]">hover &#8593;</span>
                         {showFloatingDiv && 
                         (<div className="absolute top-[50px] left-0 bg-[rgba(0,0,0,0.8)] rounded-xl text-sm text-[#A5FFD6] p-4">
                             <ul className="text-left">
