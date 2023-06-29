@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import FloatStack from "./FloatStack";
 
 const Home = () => {
     const [showFloatingDiv, setShowFloatingDiv] = useState(false);
@@ -23,20 +24,7 @@ const Home = () => {
                     onMouseLeave={handleMouseLeave}>
                         code
                         <span className="md:top-[40px] md:left-[15px] absolute top-[25px] left-0 text-sm text-[#817F75]">hover &#8593;</span>
-                        {showFloatingDiv && 
-                        (<div className="absolute top-[50px] left-0 bg-[rgba(0,0,0,0.8)] rounded-xl text-sm text-[#A5FFD6] p-4">
-                            <ul className="text-left">
-                                <li className="underline font-bold text-[#817F75]">using</li>
-                                <li>MongoDB</li>
-                                <li>ExpressJS</li>
-                                <li>React</li>
-                                <li>NodeJS</li>
-                                <li>ReactRouter</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>TailwindCSS</li>
-                            </ul>
-                        </div>)}
+                        {showFloatingDiv && <FloatStack />}
                     </span> sometimes.</p>
                 <div className="grid md:flex justify-center pt-10">
                     <NavLink to="projects">
