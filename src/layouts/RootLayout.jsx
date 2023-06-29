@@ -14,7 +14,7 @@ function RootLayout(){
         setNav(false)
     }
 
-    const resume = 'https://drive.google.com/file/d/1zwa6qiXP5zKR_YqUUCXCTKvLMUv4a2I5/view?usp=sharing'
+    const resume = 'https://drive.google.com/file/d/14-L5guQH6jNtHRyjEwGadHa6mJUpqBPj/view?usp=sharing'
 
     return (
         <div>
