@@ -7,7 +7,7 @@ const Projects = () => {
                 <h1 className='text-[#817F75] font-bold text-3xl md:text-5xl py-3'>PROJECTS</h1>
                 <div className="text-[#817F75] border-t border-[#B3B5BB] py-3">
                     <div className="">
-                        <h1 className="font-bold text-xl py-5"><Link to='/'>↗ Calorie Counter</Link></h1>
+                        <h1 className="font-bold text-xl py-5 hover:underline hover:translate-x-5 transition-all duration-300"><Link to='/'>↗ Calorie Counter</Link></h1>
                         <Link to='/' className="underline">Source Code</Link>
                         <h3 className="font-bold">Technologies Used</h3>
                         <ul className="flex flex-wrap md:grid grid-cols-4 pb-8">
@@ -18,7 +18,7 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className='border-t border-[#B3B5BB]'>
-                        <h1 className="font-bold text-xl py-5"><Link to='/'>↗ Stoic Quotes</Link></h1>
+                        <h1 className="font-bold text-xl py-5 hover:underline hover:translate-x-5 transition-all duration-300"><Link to='/'>↗ Stoic Quotes</Link></h1>
                         <Link to='/' className="underline">Source Code</Link>
                         <h3 className="font-bold">Technologies Used</h3>
                         <ul className="flex flex-wrap md:grid grid-cols-4">
