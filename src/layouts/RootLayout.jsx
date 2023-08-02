@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"; 
 import { useState } from 'react';
-import { AiOutlineClose, AiOutlineDownload, AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import Typed from 'react-typed'
 
 function RootLayout(){
@@ -14,7 +14,7 @@ function RootLayout(){
         setNav(false)
     }
 
-    const resume = 'https://drive.google.com/file/d/14-L5guQH6jNtHRyjEwGadHa6mJUpqBPj/view?usp=sharing'
+    const resume = 'https://drive.google.com/file/d/1w8MS_JWsL4Of4egUIlz2cLaX3eGkQLav/view?usp=sharing'
 
     return (
         <div>

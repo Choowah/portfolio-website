@@ -8,6 +8,7 @@ const FloatStack = () => {
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>TailwindCSS</li>
+                <li>Git</li>
             </ul>
         </div>
     );
