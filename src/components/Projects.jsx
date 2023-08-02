@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import bmwVideo from "/src/assets/bmw-3-series-summary-video.mp4";
+import portfolioPreview from "/src/assets/portfolio-homepage.png";
 
 const Projects = () => {
     return (
@@ -19,7 +21,7 @@ const Projects = () => {
                             </ul>
                             <p className="md:w-[40%] bg-[rgba(214,234,244,0.9)] rounded-lg p-6">I've created this desktop website as a passion-driven project designed to pay homage to the iconic BMW 3 Series. This project was undertaken with the primary goal of mastering web animation techniques, particularly focusing on creating an impressive initial loading page using the GSAP (GreenSock Animation Platform) library.</p>
                         </div>
-                        <video className="justify-self-end rounded-xl invisible md:visible md:h-[400px] absolute z-[-1] grayscale group-hover:grayscale-0 transition-all duration-500" autoPlay loop muted src={"/src/assets/bmw-3-series-summary-video.mp4"}></video>
+                        <video className="justify-self-end rounded-xl invisible md:visible md:h-[400px] absolute z-[-1] grayscale group-hover:grayscale-0 transition-all duration-500" autoPlay loop muted src={bmwVideo}></video>
                     </div>
                     <div className="md:grid h-[500px] mt-5 group">
                        <div className="">
@@ -34,7 +36,7 @@ const Projects = () => {
                             </ul>
                             <p className="md:w-[40%] bg-[rgba(214,234,244,0.9)] rounded-lg p-6">One of the objectives of this portfolio is to become skilled in configuring and utilizing React Router, ensuring smooth navigation between different sections of the portfolio. Through this endeavor, my intention was to enhance my comprehension of React Router while presenting my work through an engaging and fast-loading portfolio.</p>
                         </div>
-                        <img className="justify-self-end rounded-xl invisible md:visible md:h-[400px] absolute z-[-1] grayscale group-hover:grayscale-0 transition-all duration-500" src={"/src/assets/portfolio-homepage.png"} alt="" />
+                        <img className="justify-self-end rounded-xl invisible md:visible md:h-[400px] absolute z-[-1] grayscale group-hover:grayscale-0 transition-all duration-500" src={portfolioPreview} alt="" />
                     </div>
                 </div>
             </div>
