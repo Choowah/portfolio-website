@@ -21,9 +21,7 @@ const Projects = () => {
                             </ul>
                             <p className="md:w-[40%] bg-[rgba(214,234,244,0.9)] rounded-lg p-6">I've created this desktop website as a passion-driven project designed to pay homage to the iconic BMW 3 Series. This project was undertaken with the primary goal of mastering web animation techniques, particularly focusing on creating an impressive initial loading page using the GSAP (GreenSock Animation Platform) library.</p>
                         </div>
-                        <div className="hidden md:block absolute z-[-1] justify-self-end">
-                            <video className="rounded-xl md:h-[400px] grayscale group-hover:grayscale-0 transition-all duration-500" autoPlay loop muted src={bmwVideo}></video>
-                        </div>
+                        <video className="justify-self-end rounded-xl absolute z-[-1] h-0 md:h-[400px] grayscale group-hover:grayscale-0 transition-all duration-500" autoPlay loop muted src={bmwVideo}></video>
                     </div>
                     <div className="md:grid md:h-[500px] mt-5 group">
                        <div>
